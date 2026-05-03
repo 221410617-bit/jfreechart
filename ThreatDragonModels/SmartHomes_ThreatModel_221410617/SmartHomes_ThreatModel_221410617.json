@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": -1020,
-              "y": 60
+              "x": -1020.25,
+              "y": 20
             },
             "size": {
               "width": 112.5,
@@ -35,6 +35,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -118,7 +119,6 @@
               ]
             },
             "id": "d1de40c2-a297-4069-bb50-c04f901ff3b5",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Homeowner",
@@ -133,8 +133,8 @@
           },
           {
             "position": {
-              "x": -795,
-              "y": 60
+              "x": -821.5,
+              "y": 20
             },
             "size": {
               "width": 112.5,
@@ -149,6 +149,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -232,7 +233,6 @@
               ]
             },
             "id": "73280774-e8ee-486a-a8d1-4bd1f614da61",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Mobile App",
@@ -247,8 +247,8 @@
           },
           {
             "position": {
-              "x": -594,
-              "y": 60
+              "x": -620,
+              "y": 20
             },
             "size": {
               "width": 112.5,
@@ -263,6 +263,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -346,7 +347,6 @@
               ]
             },
             "id": "20caaf70-ad8d-4ffb-b12c-59ba27419efb",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Mobile App",
@@ -361,8 +361,8 @@
           },
           {
             "position": {
-              "x": -994,
-              "y": 158
+              "x": -795.25,
+              "y": 118
             },
             "size": {
               "width": 60,
@@ -377,6 +377,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -460,7 +461,6 @@
               ]
             },
             "id": "697c53cf-3bb6-46e0-84de-35995d766906",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Authentication Service",
@@ -478,8 +478,8 @@
           },
           {
             "position": {
-              "x": -769,
-              "y": 158
+              "x": -795.25,
+              "y": 218
             },
             "size": {
               "width": 60,
@@ -494,6 +494,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -577,7 +578,6 @@
               ]
             },
             "id": "7ba1863a-098e-4f91-a2ac-85fe7f9b4340",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Home Management System",
@@ -595,8 +595,8 @@
           },
           {
             "position": {
-              "x": -568,
-              "y": 158
+              "x": -795.25,
+              "y": 318
             },
             "size": {
               "width": 60,
@@ -611,6 +611,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -694,7 +695,6 @@
               ]
             },
             "id": "9690518e-7461-45f3-a583-4b530c9329d1",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "Notification Service",
@@ -712,8 +712,8 @@
           },
           {
             "position": {
-              "x": -598,
-              "y": 260
+              "x": -601.75,
+              "y": 400
             },
             "size": {
               "width": 120,
@@ -731,6 +731,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -814,7 +815,6 @@
               ]
             },
             "id": "39a0dde0-f858-4517-8fba-4b570eb90286",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
               "name": "Logs & Audit Database",
@@ -829,21 +829,12 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
             "position": {
-              "x": -799,
-              "y": 260
+              "x": -825.25,
+              "y": 400
             },
             "size": {
               "width": 120,
@@ -861,6 +852,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -944,7 +936,6 @@
               ]
             },
             "id": "1760c707-7e22-46c9-9ff4-fd63ffa0dea4",
-            "zIndex": 8,
             "data": {
               "type": "tm.Store",
               "name": "Device Status Database",
@@ -964,7 +955,7 @@
           {
             "position": {
               "x": -1024,
-              "y": 260
+              "y": 400
             },
             "size": {
               "width": 120,
