@@ -1,0 +1,27 @@
+{
+  "version": "2.6.1",
+  "summary": {
+    "title": "SmartHomes_ThreatModel_221410617",
+    "owner": "Sarah",
+    "description": "SmartHomes Co. is a Saudi-based IoT smart home system that connects multiple devices such as smart locks, CCTV cameras, motion sensors, smart meters, and HVAC systems through a cloud-based home management system. Users interact with the system via a mobile application and web dashboard. The system processes user commands, collects IoT telemetry data, and stores information in centralized databases. Communication occurs over Wi-Fi, Zigbee, and internet connections. This model identifies security threats across sensing devices, communication channels, APIs/computation, and databases using the STRIDE methodology.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.1",
+        "cells": [],
+        "description": "IOT description "
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
